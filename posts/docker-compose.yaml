@@ -1,0 +1,15 @@
+services:
+  postgres-db:
+    container_name: postgres
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: postgres
+    extends:
+      file: common-config.yml
+      service: postgres-db-config
+
+networks:
+  mamadou4bah:
+    driver: "bridge"

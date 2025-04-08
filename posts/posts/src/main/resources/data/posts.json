@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facera",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "sunt aut facera 1",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 1"
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "sunt aut facera 2",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 2"
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "sunt aut facera 3",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 3"
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "sunt aut facera 4",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 4"
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "sunt aut facera 5",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 5"
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "sunt aut facera 6",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 6"
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "sunt aut facera 7",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 7"
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "sunt aut facera 8",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 8"
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "sunt aut facera 9",
+      "body": "quia et suscipit\nsuscipit\naccusamus et isuto 9"
+    }
+  ]
+
+}

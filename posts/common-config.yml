@@ -1,0 +1,21 @@
+services:
+  network-deploy-service:
+    networks:
+      - mamadou4bah
+
+  postgres-db-config:
+    extends:
+      service: network-deploy-service
+    image: "postgres:16.0"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "postgres" ]
+      timeout: 60s         # Délai d'attente maximum pour le test
+      retries: 10          # Nombre de tentatives avant de déclarer le service défaillant
+      interval: 10s        # Intervalle entre les tests de santé
+      start_period: 10s    # Délai avant d'exécuter le premier test
+    environment:
+      POSTGRES_USER: bah
+      POSTGRES_PASSWORD: secret
+      POSTGRES_HOST: posts
+
+
